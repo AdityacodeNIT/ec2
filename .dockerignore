@@ -1,0 +1,25 @@
+# Dependencies (install inside container)
+node_modules/
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build output (if built inside container)
+dist/
+build/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Docs
+README.md

@@ -31,8 +31,8 @@ jobs:
           username: ubuntu
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-  cd ~/your-repo-name
-  docker pull ${{ secrets.DOCKER_USERNAME }}/my-app:latest
-  docker compose down
-  docker compose up -d
+              cd ~/your-repo-name
+              docker pull ${{ secrets.DOCKER_USERNAME }}/my-app:latest
+              docker compose down
+              docker compose up -d
 
